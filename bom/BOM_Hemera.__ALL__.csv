@@ -3,7 +3,7 @@ Item,Quantity,Name,Material
 2,1,hemera_face,PETG
 3,2,face_belt_grabber,PETG
 4,8,DIN 912 M3 8 mm,Hardened Alloy Steel
-5,1,bottom_mgn12_short_duct,PETG
+5,1,bottom_mgn12_hemera,PETG
 6,1,Duct v2.1 Angled 13.2deg,PETG
 7,1,hemera_probe_adapter,PETG
 8,21,"M3  Hex nut ",Hardened Alloy Steel
