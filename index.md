@@ -1,6 +1,16 @@
 ---
+title: Hemera
+uid: EVA / Hemera
+type: drive
 badges:
     - Official
+contributors: 
+    - pkucmus
+repo_url: https://github.com/EVA-3D/eva-hemera
+cad_url: https://cad.onshape.com/documents/371450c83b99fdd5844f4b0c/w/6283a21a1cfe91323a72f862/e/1fc412a1de950c20053d2aaa
+satisfies:
+    - drive
+    - hotend
 ---
 # Hemera
 
@@ -14,21 +24,25 @@ E3D Hemera is another example of the front heavy EVAs. The motor is huge and the
 
 Hemera's motor needs to be put on quite early in the assembly process, remember to grab the right belt before putting it on.
 
-??? notice "MGN15"
+### Bill of materials
 
-    To mount EVA / Hemera on a MGN15C carriage you will need a few different than the default parts and a few longer screws. The BOM replaces **only a few parts and screws** from the default BOM - for MGN15C you need to look at both - **what follows is not the full MGN15C BOM**.
+=== "MGN12"
 
-{{ bom("drives/hemera/bom/BOM_Hemera.MGN15.csv", 4) }}
+    <add-bom-button name="{{ meta.uid }} (MGN12)">
+        {{ bom_to_json("Hemera.MGN12.csv") }}
+    </add-bom-button>
+    
+    {{ bom_to_md_table("Hemera.MGN12.csv", 4) }}
+
+
+=== "MGN15"
+
+    <add-bom-button name="{{ meta.uid }} (MGN15)">
+        {{ bom_to_json("Hemera.MGN15.csv") }}
+    </add-bom-button>
+    
+    {{ bom_to_md_table("Hemera.MGN15.csv", 4) }}
 
 ### Links
 
-{{ eva_download_button("hemera") }}
-
-{{ eva_link("hemera") }}
-
-{{ onshape_link("hemera") }}
-
-### BOM
-
-{{ bom("drives/hemera/bom/BOM_Hemera.__ALL__.csv", 0) }}
-
+{{ eva_download_button() }}
