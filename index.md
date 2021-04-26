@@ -45,4 +45,5 @@ Hemera's motor needs to be put on quite early in the assembly process, remember 
 
 ### Links
 
-{{ eva_download_button() }}
+{{ download_button }}
+{{ cad_link }}
